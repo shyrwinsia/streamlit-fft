@@ -6,7 +6,7 @@ import streamlit as st
 
 st.title('Fast Fourier Transform on Financial Time Series')
 
-st.markdown('FFT is used on a financial time series to extract the signal from the noise. The time series is transform the frequencies where a threshold can be defined. This can act as a filter. The signal is then transformed back using the inverse FFT.')
+st.markdown('FFT is used on a financial time series to extract the signal from the noise. The time series is transformed to the frequency graph where a threshold can be defined. This can act as a filter. The signal is then transformed back using the inverse FFT.')
 
 START = '2020-01-01'
 TODAY = date.today().strftime('%Y-%m-%d')
